@@ -7,18 +7,18 @@ Recommendation: since filling out every topic would get ugly, I recommend creati
 
 ## Git / GitHub
 
-- add
-- commit
-- push
-- pull
-- clone vs fork
-- branch
-- checkout
-- merge conflicts
-- stashing
-- clean vs reset
-- GitHub issues
-- GitHub pull requests
+- add:
+- commit:
+- push:
+- pull:
+- clone vs fork:
+- branch:
+- checkout:
+- merge conflicts:
+- stashing:
+- clean vs reset:
+- GitHub issues:
+- GitHub pull requests:
 
 ## Linux
 
