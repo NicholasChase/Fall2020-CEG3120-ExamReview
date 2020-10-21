@@ -134,5 +134,5 @@ Recommendation: since filling out every topic would get ugly, I recommend creati
 
 
 https://www.baeldung.com/linux/cd-command-bash-script
-
+https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/
 
