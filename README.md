@@ -130,3 +130,9 @@ Recommendation: since filling out every topic would get ugly, I recommend creati
 
 - keys (private vs public)
 
+
+
+
+https://www.baeldung.com/linux/cd-command-bash-script
+
+
