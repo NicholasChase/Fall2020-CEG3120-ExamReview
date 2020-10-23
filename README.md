@@ -24,17 +24,37 @@ Unlike forking, you won’t be able to pull down changes from the original repos
 
 ## Linux
 
-- file & directory permissions
-- ownership & groups
-- PATH manipulation
+- file & directory permissions: chmod 777: enables all permisions. <br>
+Read: The capability to read contents. This is expressed as either the number 4 or letter r.<br>
+Write: The capability to write or modify. This is expressed as either the number 2 or letter w.<br>
+Execute: The capability to execute. This is expressed as either the number 1 or letter x.<br>
+This is a breakdown of the combinations possible and the permissions they apply.<br>
+
+7 = 4 + 2 + 1 (read/write/execute)<br>
+
+6 = 4 + 2 (read/write)<br>
+
+5 = 4 + 1 (read/execute)<br>
+
+4 = 4 (read)<br>
+
+3 = 2 + 1 (write/execute)<br>
+
+2 = 2 (write)<br>
+
+1 = 1 (execute)<br>
+
+- ownership & groups: 
+- PATH manipulation: File path manipulation vulnerabilities arise when user-controllable data is placed into a file or URL path that is used on the server to access local resources, which may be within or outside the web root.
 - File System - what to expect in root folders
-  - /etc/
-  - /var/
-  - /proc/
-  - /dev/
-  - /bin/ & /sbin/
-  - /boot/
-  - /home/
+  - /etc/: The /etc folder comprises all system-wide configuration files and some shell scripts that are executed during the system boot. All files here are text files, so they are human readable.
+  - /var/: The /var contains files that are of variable content, so their content is not static and it constantly changes. For example, this is where the log files are stored. If you don’t know, a log file is a file that records all events happening in your system while it is running. These log files often help to find out if something is not working correctly in your system.
+  - /proc/: This is a virtual file-system maintained by the Linux kernel. Usually, you do not touch anything in this folder. It is needed only for the kernel to run different processes.
+  - /bin/: The /bin folder contains programs that are essential for the system to boot and run. So, if you destroy this folder, your system won’t boot and run.
+  - /sbin/: Similar to /bin this folder contains binaries for essential system tasks but they are meant to be run by the super user, in other words, the administrator of the system.
+  - /boot/: It is easy to guess from the name. This folder is needed to boot your system. It contains the Linux kernel, initial RAM disk image for drives need at boot time, and the bootloader.
+  - /home/: The home directory contains a home folder for each regular user on your Linux system. For example, I have tow folders in my /home folder. ALU is my home folder. The second folder belongs to another user, whom I named User2. So, the home folder of every user is named by its username.
+  - /dev/: Here, I need to introduce another important concept of Linux – everything is a file. The /dev folder contains files for all devices your Linux is able to recognize.
 - User / group management
   - Configuration files to note:
     - /etc/passwd , /etc/group, /etc/shadow
