@@ -7,16 +7,18 @@ Recommendation: since filling out every topic would get ugly, I recommend creati
 
 ## Git / GitHub
 
-- add:
-- commit:
-- push:
-- pull:
-- clone vs fork:
-- branch:
-- checkout:
-- merge conflicts:
-- stashing:
-- clean vs reset:
+- add: git add [file-name]
+- commit: git commit 
+- push: git push
+- pull: git pull
+- clone vs fork: <br>FORK:  A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Requests
+<br>CLONE: When you create a new repository on GitHub, it exists as a remote 63 location where your project is stored. You can clone your repository to create a local copy on your computer so that you can sync between both the local and remote locations of the project.<br>
+Unlike forking, you won’t be able to pull down changes from the original repository you cloned from, and if the project is owned by someone else you won’t be able to contribute back to it unless you are specifically invited as a collaborator 49. Cloning is ideal for instances when you need a way to quickly get your own copy of a repository where you may not be contributing to the original project.
+- branch: git branch [Name of branch]
+- checkout: git checkout [branch name]
+- merge conflicts: Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.
+- stashing: git stash
+- clean vs reset:<br> CLEAN: Untracked files are removed but modified files are unchanged <br> RESET: Changes to modified files are discarded but untracked files are untouched:
 - GitHub issues:
 - GitHub pull requests:
 
